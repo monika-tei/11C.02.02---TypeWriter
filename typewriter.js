@@ -29,10 +29,11 @@ function initLoop() {
 function onLoop() {
   if (i < maxIterations) {
     // console.log(text.innerHTML[i]);
+
     // So if the number of iterations is less than 44,
     //create a variable that stores a character:
-
     let separateCharacter = textContent2[i];
+
     // now we need to display
     originalTextCont.innerHTML = originalTextCont.innerHTML.concat(separateCharacter);
 
